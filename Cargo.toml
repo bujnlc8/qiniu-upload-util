@@ -1,6 +1,6 @@
 [package]
 name = "qiniu-upload-util"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A CLI to upload file to qiniu Kodo"
 authors = ["linghaihui <75124771@qq.com>"]

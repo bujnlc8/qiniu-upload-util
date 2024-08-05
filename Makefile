@@ -1,5 +1,5 @@
 PLATFORMS:=x86_64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl aarch64-apple-darwin
-VERSION:=0.1.0
+VERSION:=0.1.1
 CLI:=qiniu-upload-util
 HOST_TRIPLE := $(shell rustc -vV | grep 'host:' | awk '{print $$2}')
 SHELLS:=fish zsh bash elvish
@@ -26,6 +26,7 @@ artifacts:all completions
 			mkdir /tmp/$(CLI); \
 			cp target/release/$(CLI) /tmp/$(CLI); \
 			cp -R completions /tmp/$(CLI); \
+			cp README.md /tmp/$(CLI); \
 			tar zcvf $(CLI)_$$platform.tar.gz  -C /tmp $(CLI); \
 			rm -rf /tmp/$(CLI); \
 		else \
@@ -33,6 +34,7 @@ artifacts:all completions
 			mkdir /tmp/$(CLI); \
 			cp target/$$platform/release/$(CLI) /tmp/$(CLI); \
 			cp -R completions /tmp/$(CLI); \
+			cp README.md /tmp/$(CLI); \
 			tar zcvf $(CLI)_$$platform.tar.gz -C /tmp $(CLI); \
 			rm -rf /tmp/$(CLI); \
 		fi; \

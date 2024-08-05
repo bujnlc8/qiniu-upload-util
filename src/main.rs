@@ -24,13 +24,7 @@ pub async fn upload_to_qiniu<R: AsyncRead + Send + Sync + 'static + std::marker:
     part_size: Option<usize>,
     threads: Option<u8>,
 ) -> Result<()> {
-    let qiniu = QiniuUploader::new(
-        access_key.to_string(),
-        secret_key.to_string(),
-        bucket_name.to_string(),
-        region,
-        false,
-    );
+    let qiniu = QiniuUploader::new(access_key, secret_key, bucket_name, region, false);
     qiniu
         .part_upload_file(object_name, reader, file_size, part_size, threads, None)
         .await?;
