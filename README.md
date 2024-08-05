@@ -10,21 +10,21 @@
 
 ## 下载
 
-- [⬇️ 点击下载 x86_64-apple-darwin](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.0/qiniu-upload-util_x86_64-apple-darwin.tar.gz)
+- [⬇️ 点击下载 x86_64-apple-darwin](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.1/qiniu-upload-util_x86_64-apple-darwin.tar.gz)
 
-  > [qiniu-upload-util_x86_64-apple-darwin.tar.gz.md5](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.0/qiniu-upload-util_x86_64-apple-darwin.tar.gz.md5)
+  > [qiniu-upload-util_x86_64-apple-darwin.tar.gz.md5](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.1/qiniu-upload-util_x86_64-apple-darwin.tar.gz.md5)
 
-- [⬇️ 点击下载 aarch64-apple-darwin](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.0/qiniu-upload-util_aarch64-apple-darwin.tar.gz)
+- [⬇️ 点击下载 aarch64-apple-darwin](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.1/qiniu-upload-util_aarch64-apple-darwin.tar.gz)
 
-  > [qiniu-upload-util_aarch64-apple-darwin.tar.gz.md5](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.0/qiniu-upload-util_aarch64-apple-darwin.tar.gz.md5)
+  > [qiniu-upload-util_aarch64-apple-darwin.tar.gz.md5](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.1/qiniu-upload-util_aarch64-apple-darwin.tar.gz.md5)
 
-- [⬇️ 点击下载 x86_64-unknown-linux-musl](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.0/qiniu-upload-util_x86_64-unknown-linux-musl.tar.gz)
+- [⬇️ 点击下载 x86_64-unknown-linux-musl](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.1/qiniu-upload-util_x86_64-unknown-linux-musl.tar.gz)
 
-  > [qiniu-upload-util_x86_64-unknown-linux-musl.tar.gz.md5](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.0/qiniu-upload-util_x86_64-unknown-linux-musl.tar.gz.md5)
+  > [qiniu-upload-util_x86_64-unknown-linux-musl.tar.gz.md5](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.1/qiniu-upload-util_x86_64-unknown-linux-musl.tar.gz.md5)
 
-- ~~[⬇️ 点击下载 x86_64-unknown-linux-gnu](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.0/qiniu-upload-util_x86_64-unknown-linux-gnu.tar.gz)~~
+- ~~[⬇️ 点击下载 x86_64-unknown-linux-gnu](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.1/qiniu-upload-util_x86_64-unknown-linux-gnu.tar.gz)~~
 
-  > ~~[qiniu-upload-util_x86_64-unknown-linux-gnu.tar.gz.md5](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.0/qiniu-upload-util_x86_64-unknown-linux-gnu.tar.gz.md5)~~
+  > ~~[qiniu-upload-util_x86_64-unknown-linux-gnu.tar.gz.md5](https://github.com/bujnlc8/qiniu-upload-util/releases/download/0.1.1/qiniu-upload-util_x86_64-unknown-linux-gnu.tar.gz.md5)~~
 
 请根据你的操作系统下载相应的版本，可对比 md5 hash 值确定是否下载了最新的版本
 
