@@ -1,5 +1,5 @@
 [![Crates.io](https://img.shields.io/crates/v/qiniu-upload?style=flat-square)](https://crates.io/crates/qiniu-upload)
-[![qiniu-upload](https://github.com/bujnlc8/qiniu-upload/actions/workflows/qiniu-upload.yml/badge.svg)](https://github.com/bujnlc8/qiniu-upload/actions/workflows/qiniu-upload.yml)
+[![Build](https://github.com/bujnlc8/qiniu-upload-util/actions/workflows/qiniu-upload.yml/badge.svg)](https://github.com/bujnlc8/qiniu-upload-util/actions/workflows/qiniu-upload.yml)
 
 # 七牛文件上传工具
 
