@@ -9,7 +9,7 @@ use std::{
     io::{self},
     os::unix::fs::MetadataExt,
     str::FromStr,
-    time,
+    time::{self, SystemTime},
 };
 use std::{path::PathBuf, process::exit};
 use tokio::{
@@ -30,12 +30,16 @@ where
 
 // 获取下载链接
 fn get_download_url(domain_name: Option<String>, object_name: &str) -> String {
+    let t = SystemTime::now()
+        .duration_since(SystemTime::UNIX_EPOCH)
+        .unwrap()
+        .as_secs();
     match domain_name {
         Some(domain_name) => {
             if domain_name.starts_with("http") {
-                format!("{domain_name}/{object_name}")
+                format!("{domain_name}/{object_name}?t={:2x}", t)
             } else {
-                format!("https://{domain_name}/{object_name}")
+                format!("https://{domain_name}/{object_name}?t={:2x}", t)
             }
         }
         None => "".to_string(),

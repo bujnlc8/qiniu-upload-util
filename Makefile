@@ -1,5 +1,5 @@
 PLATFORMS:=x86_64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl aarch64-apple-darwin
-VERSION:=0.1.2
+VERSION:=0.1.3
 CLI:=qiniu-upload-util
 HOST_TRIPLE := $(shell rustc -vV | grep 'host:' | awk '{print $$2}')
 SHELLS:=fish zsh bash elvish
