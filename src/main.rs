@@ -34,6 +34,7 @@ fn get_download_url(domain_name: Option<String>, object_name: &str) -> String {
         .duration_since(SystemTime::UNIX_EPOCH)
         .unwrap()
         .as_secs();
+    let object_name = object_name.replace(" ", "%20");
     match domain_name {
         Some(domain_name) => {
             if domain_name.starts_with("http") {
